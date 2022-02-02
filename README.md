@@ -32,7 +32,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ### [Chapter 1) Quick Start Install](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/1-QuickStart.md)
 ### [Chapter 2) BootCamp Install](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/2-BootCamp.md)
-### [Chapter 3) Quirks & Fixes]
+### [Chapter 3) Quirks & Fixes](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/3-quirks%26fixes.md)
 ### [Chapter 4) Additional Drivers]
 ### [Chapter 5) Booting Other OS's with OpenCore]
 ### [Chapter 6) Other Operating Systems]
