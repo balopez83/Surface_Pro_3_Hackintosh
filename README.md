@@ -37,7 +37,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ### [Chapter 5) Booting Other OS's with OpenCore](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/5-OtherOS%26OC.md)
 ### [Chapter 6) Other Operating Systems](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/6-OtherOS.md)
 ### [Chapter 7) Other OS Quirks & Fixes](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/7-OtherOSquirks%26fixes.md)
-### [Chapter 8) Windows 11 Upgrade and/or Clean Install]
+### [Chapter 8) Windows 11 Upgrade and/or Clean Install](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/8-Windows-11.md)
 
 
 ## What works 
