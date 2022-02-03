@@ -2,7 +2,10 @@
 
 ## Windows: 
 
-Should be installed and booted from the OpenCore menu. OpenCore will automatically show Windows in the menu with no additional effort. 
+Should be installed and booted from the OpenCore menu. Due to the Surface 1/2/3 firmware, if the Windows bootloader is detected it will boot that instead of OpenCore. You must follow the steps below to dual boot Windows using OpenCore and avoid the Surface UEFI from overriding things.
+    * Dual Boot: [COMING SOON]
+    
+    * Secure Boot: [COMING SOON] (see https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md for the sourced steps that I have provided below)
 
 ## Linux: 
 
