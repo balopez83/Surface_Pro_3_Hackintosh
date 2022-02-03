@@ -1,7 +1,7 @@
 # Surface_Pro_3_Hackintosh
 OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2 and early Surface Books)
 
-Full support for macOS version 10.15.7 and above.
+Full support for macOS version 10.14.X and above.
 
 If you see anything that could be added or changed don't hesitate to make a pull request.
 
@@ -44,7 +44,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## What works 
 
-- macOS 10.15.7 and above
+- macOS 10.14.X and above
 - Graphics Acceleration: (occasional artifacts/glitches at high resolutions)
 - Native Brightness Adjustments
 - Native Audio Adjustments
