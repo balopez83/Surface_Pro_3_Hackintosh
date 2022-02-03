@@ -51,30 +51,30 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Fan
 - USB
 - Battery
-- TypeCover Trackpad
+- TypeCover Trackpad: w/gestures
 - TypeCover Keyboard
 - TypeCover Hotplug
 - Audio
 - WiFi: USB nano cards supported with the Realtek chipset
 - iServices: Requires custom SMBIOS settings in OpenCore config.plist file. See the OpenCore Dortania Post-Install guide.
 - USB Installer (no wifi support)
+- SDcard
+- Secure Boot: ON (see Chapter 5)
+- Dual Boot: (see Chapter 5)
 
 
 
 ## What doesn't work or hasn't yet been tested
 
-- SDcard
-- WiFi: (Will likely never work as macOS has never supported the Marvell Avastar cards)
-- Bluetooth: (Will likely never work as it is bundled with the Marvell Avastar WiFi card which is not supported)
+- WiFi: (Marvell Avastar - Unsupported)
+- Bluetooth: (Marvell Avastar - Unsupported)
 - Audio: Audio Jack & Audio over mDP (not yet tested)
-- TouchScreen / Surface Pen: (not yet tested)
+- TouchScreen / Surface Pen
 - Power Management: (Partially supported but not completed)
 - Sleep / Wake: (Partially supported but not completed)
-- TypeCover: close to sleep/open to wake (Surface does not turn off display and go to sleep when TypeCover is closed or turn on display and wake when TypeCover is opened)
-- mDP: (Not Yet Tested)
+- TypeCover: close to sleep/open to wake
+- mDP
 - Accelerometer: (Will likely never work as macOS has never supported rotation natively with an Accelerometer)
-- Dual Boot: (SP 1/2/3 firmware causes issues with dual boot currently)
-- Secure Boot: (Fix in the works but currently requires Surface to have Secure Boot off)
 - Recovery
 - FileVault: (Not Yet Tested)
 - DRM: (Not Yet Tested)
