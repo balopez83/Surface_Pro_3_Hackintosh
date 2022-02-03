@@ -56,6 +56,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Audio
 - WiFi: USB nano cards supported with the Realtek chipset
 - iServices: Requires custom SMBIOS settings in OpenCore config.plist file. See the OpenCore Dortania Post-Install guide.
+- USB Installer (no wifi support)
 
 
 
@@ -73,7 +74,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Accelerometer: (Will likely never work as macOS has never supported rotation natively with an Accelerometer)
 - Dual Boot: (SP 1/2/3 firmware causes issues with dual boot currently)
 - Secure Boot: (Fix in the works but currently requires Surface to have Secure Boot off)
-- Recovery: (Not Yet Tested)
+- Recovery
 - FileVault: (Not Yet Tested)
 - DRM: (Not Yet Tested)
 
