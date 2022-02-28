@@ -10,7 +10,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts may break support.
 ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 ### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic. Please see instructions in Chapter 5 [COMING SOON] detailing how to dual boot with Windows.
-### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned on. Please see instructions in Chapter 5 [COMING SOON] to register the secure boot key and boot with secure boot turned on
+### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned on. Please see instructions in Chapter 10 [COMING SOON] to register the secure boot key and boot with secure boot turned on
 
 
 ## Surface Pro 3 Specifications:
