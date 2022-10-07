@@ -69,8 +69,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - mDP
 - Recovery
 - FileVault
-- Power Button (Physical button working)
-- Volume Buttons (Physical buttons working)
 
 
 
@@ -79,9 +77,12 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - WiFi: (Marvell Avastar - Unsupported)
 - Bluetooth: (Marvell Avastar - Unsupported)
 - Accelerometer: (Unsupported)
-- Audio: Audio Jack & Audio over mDP (not yet tested)
+- Audio: Audio Jack & Audio over mDP (Working on this currently)
 - Power Management: (Partially supported but not completed)
 - DRM: (Unsupported on iGPU)
+- Power Button (Working on this currently)
+- Volume Buttons (Working on this currently)
+- mDP (Working on this currently)
 
 
 ## Credits
