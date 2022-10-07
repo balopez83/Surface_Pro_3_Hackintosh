@@ -62,21 +62,26 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Dual Boot: (see Chapter 5)
 
 
+## Features/Fixes coming in the next release
+
+- TouchScreen / Surface Pen
+- TypeCover support for sleep and wake
+- mDP
+- Recovery
+- FileVault
+- Power Button (Physical button working)
+- Volume Buttons (Physical buttons working)
+
+
 
 ## What doesn't work or hasn't yet been tested
 
 - WiFi: (Marvell Avastar - Unsupported)
 - Bluetooth: (Marvell Avastar - Unsupported)
+- Accelerometer: (Unsupported)
 - Audio: Audio Jack & Audio over mDP (not yet tested)
-- TouchScreen / Surface Pen
 - Power Management: (Partially supported but not completed)
-- Sleep / Wake: (Partially supported but not completed)
-- TypeCover: close to sleep/open to wake
-- mDP
-- Accelerometer: (Will likely never work as macOS has never supported rotation natively with an Accelerometer)
-- Recovery
-- FileVault: (Not Yet Tested)
-- DRM: (Not Yet Tested)
+- DRM: (Unsupported on iGPU)
 
 
 ## Credits
