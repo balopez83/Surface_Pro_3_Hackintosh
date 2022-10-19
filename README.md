@@ -69,17 +69,17 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - FileVault
 - Power Management
 
+## Partially Working/In-Progress (Working ONLY After Warm Boot From Windows/Linux)
 
-## Features/Fixes coming in the next release
-
-- 
+- Power Button (Sleep/Wake)
+- Volume Down
+- Volume Up
+- Windows Button (Temporarily Disabled Pending Assigning A Useful Task For The Button)
 
 
 ## Current Issues Being Worked On
 
 - Deep Sleep (Surface Hardware Limitation)
-- Power Button
-- Volume Buttons
 - mDP
 - TypeCover Sleep/Wake Trigger
 
