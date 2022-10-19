@@ -68,6 +68,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Recovery (Touch Works In Recovery)
 - FileVault
 - Power Management
+- mDP
 
 ## Partially Working/In-Progress (Working ONLY After Warm Boot From Windows/Linux)
 
@@ -80,7 +81,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ## Current Issues Being Worked On
 
 - Deep Sleep (Surface Hardware Limitation)
-- mDP
 - TypeCover Sleep/Wake Trigger
 
 
