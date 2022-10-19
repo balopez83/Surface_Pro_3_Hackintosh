@@ -7,10 +7,11 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 
 ## *** NOTICE ***
-### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts may break support.
+### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
 ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
-### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic. Please see instructions in Chapter 5 [COMING SOON] detailing how to dual boot with Windows.
-### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned on. Please see instructions in Chapter 10 [COMING SOON] to register the secure boot key and boot with secure boot turned on
+### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
+### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned off. Please see instructions in Chapter 9 to register the secure boot key and boot with secure boot turned on
+### Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until reboot. 
 
 
 ## Surface Pro 3 Specifications:
@@ -50,6 +51,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Fan
 - USB
 - Battery
+- A/C Detection
 - TypeCover Trackpad: w/gestures
 - TypeCover Keyboard
 - TypeCover Hotplug
@@ -58,31 +60,35 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - iServices: Requires custom SMBIOS settings in OpenCore config.plist file. See the OpenCore Dortania Post-Install guide.
 - USB Installer (no wifi support)
 - SDcard
-- Secure Boot: ON (see Chapter 5)
+- Secure Boot: ON (see Chapter 9)
 - Dual Boot: (see Chapter 5)
+- TouchScreen
+- Surface Pen
+- Recovery (Touch Works In Recovery)
+- FileVault
+- Power Management
 
 
 ## Features/Fixes coming in the next release
 
-- TouchScreen / Surface Pen
-- TypeCover support for sleep and wake
+- 
+
+
+## Current Issues Being Worked On
+
+- Deep Sleep (Surface Hardware Limitation)
+- Power Button
+- Volume Buttons
 - mDP
-- Recovery
-- FileVault
+- TypeCover Sleep/Wake Trigger
 
 
-
-## What doesn't work or hasn't yet been tested
+## Won't Ever Work
 
 - WiFi: (Marvell Avastar - Unsupported)
-- Bluetooth: (Marvell Avastar - Unsupported)
 - Accelerometer: (Unsupported)
-- Audio: Audio Jack & Audio over mDP (Working on this currently)
-- Power Management: (Partially supported but not completed)
+- Bluetooth: (Marvell Avastar - Unsupported)
 - DRM: (Unsupported on iGPU)
-- Power Button (Working on this currently)
-- Volume Buttons (Working on this currently)
-- mDP (Working on this currently)
 
 
 ## Credits
