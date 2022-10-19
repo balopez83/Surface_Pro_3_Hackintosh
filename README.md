@@ -62,6 +62,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - SDcard
 - Secure Boot: ON (see Chapter 9)
 - Dual Boot: (see Chapter 5)
+- Windows Boot From OpenCore Supported
 - TouchScreen
 - Surface Pen
 - Recovery (Touch Works In Recovery)
