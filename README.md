@@ -93,4 +93,4 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 
 ## Credits
-Special thanks to the massive Hackintosh community for all your work that makes these guides and Surface Pro Hackintosh possible. Additional thanks goes to @acidanthera and [@Xiashangning](https://github.com/Xiashangning/BigSurface) for their tireless work on the software & kexts that make hackintoshing possible. Custom VoodooI2C.kext utilizes code from Xiashangning's BigSurface kext to enable Surface Keyboard full support with permission. <br>
+Special thanks to the massive Hackintosh community for all your work that makes these guides and Surface Pro Hackintosh possible. Additional thanks goes to @acidanthera and [@Xiashangning](https://github.com/Xiashangning/BigSurface) for their tireless work on the software & kexts that make hackintoshing possible. Custom VoodooI2C.kext utilizes code from Xiashangning's BigSurface kext to enable Surface Keyboard support with permission. <br>
