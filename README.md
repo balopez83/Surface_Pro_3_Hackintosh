@@ -82,6 +82,8 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Deep Sleep (Surface Hardware Limitation)
 - TypeCover Sleep/Wake Trigger
+- Battey Indicator Slow to Update After Cold Boot
+- AC Detection Slow to Update After Cold Boot
 
 
 ## Won't Ever Work
