@@ -8,8 +8,8 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## *** NOTICE ***
 ## macOS Ventura may have an issue causing Kernel Panic on shutdown or reboot. This is an issue with the surface keyboard and is being worked on. 
-### - Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
-### - Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
+- ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
+- ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 ### - Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
 ### - Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned off. Please see instructions in Chapter 9 to register the secure boot key and boot with secure boot turned on
 ### - Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until reboot. 
