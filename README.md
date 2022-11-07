@@ -1,13 +1,13 @@
 # Surface Pro 3 Hackintosh With Touch Working
 OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2)
 
-Full support for macOS version 10.14.X and above.
+Full support for macOS version 10.14.X through 12.X.X.
 
 If you see anything that could be added or changed don't hesitate to make a pull request.
 
 
 ## *** NOTICE ***
-- ## macOS Ventura may have an issue causing Kernel Panic on shutdown or reboot. This is an issue with the surface keyboard and is being worked on. 
+- ## macOS Ventura is not currently supported. While it can be installed there is no graphics or audio support. Additionally, restarting/shut-down in Ventura causes a Kernel Panic due to the Surface Keyboard. I am working on possible solutions to all of these issues but advise that you stay on macOS Monterey or older. 
 - ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 - ### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
@@ -45,7 +45,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## What works 
 
-- macOS 10.14.X and above
+- macOS 10.14.X through 12.X.X
 - Graphics Acceleration: (occasional artifacts/glitches at high resolutions)
 - Native Brightness Adjustments
 - Native Audio Adjustments
@@ -85,6 +85,9 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - TypeCover Sleep/Wake Trigger
 - Battey Indicator Slow to Update After Cold Boot
 - AC Detection Slow to Update After Cold Boot
+- Graphics Acceleration (macOS Ventura issue only)
+- Audio (macOS Ventura issue only)
+- Surface Keyboard (Works but causes KP in macOS Ventura only)
 
 
 ## Won't Ever Work
