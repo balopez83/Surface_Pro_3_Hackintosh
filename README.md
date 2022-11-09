@@ -1,13 +1,13 @@
 # Surface Pro 3 Hackintosh With Touch Working
 OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2)
 
-Full support for macOS version 10.14.X through 12.X.X.
+Full support for macOS version 10.14.X through 12.X.X. Partial support for macOS version 13.X.X
 
 If you see anything that could be added or changed don't hesitate to make a pull request.
 
 
 ## *** NOTICE ***
-- ## macOS Ventura is not currently supported. While it can be installed there is no graphics or audio support. Additionally, restarting/shut-down in Ventura causes a Kernel Panic due to the Surface Keyboard. I am working on possible solutions to all of these issues but advise that you stay on macOS Monterey or older. 
+- ## macOS Ventura now has beta support. Graphics Acceleration is now supported using OpenCore legacy patcher. Additionally, restarting/shut-down in Ventura causes a Kernel Panic due to the Surface Keyboard. I am working on possible solutions to all of these issues but advise that you stay on macOS Monterey or older.
 - ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 - ### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
@@ -42,6 +42,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ### [Chapter 7) Other OS Quirks & Fixes](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/7-OtherOSquirks%26fixes.md)
 ### [Chapter 8) Windows 11 Upgrade and/or Clean Install](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/8-Windows-11.md)
 ### [Chapter 9) Secure Boot ON with OpenCore using Grub](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/9-SecureBootOn.md)
+### [Chapter 10) Haswell Legacy Support (macOS Ventura only)](https://github.com/balopez83/Surface_Pro_3_Hackintosh/blob/main/10-HaswellLegacySupport.md)
 
 ## What works 
 
