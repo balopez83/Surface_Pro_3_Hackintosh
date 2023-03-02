@@ -46,7 +46,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## What works 
 
-- macOS 10.14.X through 12.X.X
+- macOS 10.14.X through 13.X.X (Ventura req's special modifications)
 - Graphics Acceleration: (occasional artifacts/glitches at high resolutions)
 - Native Brightness Adjustments
 - Native Audio Adjustments
@@ -84,11 +84,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Deep Sleep (Surface Hardware Limitation)
 - TypeCover Sleep/Wake Trigger
-- Battey Indicator Slow to Update After Cold Boot
-- AC Detection Slow to Update After Cold Boot
-- Graphics Acceleration (macOS Ventura issue only)
 - Audio (macOS Ventura issue only)
-- Surface Keyboard (Works but causes KP in macOS Ventura only)
 
 
 ## Won't Ever Work
