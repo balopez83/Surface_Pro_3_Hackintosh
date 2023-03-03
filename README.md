@@ -84,7 +84,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 - Deep Sleep (Surface Hardware Limitation)
 - TypeCover Sleep/Wake Trigger
-- Audio (macOS Ventura issue only)
 
 
 ## Won't Ever Work
