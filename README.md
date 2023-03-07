@@ -1,9 +1,11 @@
 # Surface Pro 3 Hackintosh With Touch Working
 OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2)
 
-Full support for macOS version 10.14.X through 12.X.X. Partial support for macOS version 13.X.X
+Full support for macOS version 10.14.X through 13.X.X. Partial support for macOS version 13.X.X
 
 If you see anything that could be added or changed don't hesitate to make a pull request.
+
+![Screenshot 2023-03-07 at 2 19 15 PM](https://user-images.githubusercontent.com/53441362/223567083-c2dafb00-a842-4ea7-81fe-e90056486810.png)
 
 
 ## *** NOTICE ***
