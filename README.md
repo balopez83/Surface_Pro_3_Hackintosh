@@ -73,7 +73,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - FileVault
 - Power Management
 - mDP
-- Deep Sleep (macOS style Hibernation; requires pmset = 25)
+- Deep Sleep (macOS style Hibernation; See Quirks & Fixes for required power setting changes)
 
 ## Partially Working/In-Progress (Working ONLY After Warm Boot From Windows/Linux)
 
