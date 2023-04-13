@@ -23,4 +23,10 @@ sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayRes
 System Preferences > Trackpad > Uncheck Force Click and Haptic Feedback
 ```
 
+4. In order to get macOS Hibernation working you are required to change your hibernatemode. Please open Terminal and enter the following command.
+```
+sudo pmset -a hibernatemode 25;
+```
+
+
 
