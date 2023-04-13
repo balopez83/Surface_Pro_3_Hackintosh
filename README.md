@@ -1,7 +1,7 @@
 # Surface Pro 3 Hackintosh With Touch Working
 OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2)
 
-Full support for macOS version 10.14.X through 13.X.X. Partial support for macOS version 13.X.X
+Full support for macOS version 10.14.X through 13.X.X. macOS Ventura requires OpenCore Legacy Patcher to regain graphics support.
 
 If you see anything that could be added or changed don't hesitate to make a pull request.
 
@@ -49,7 +49,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ## What works 
 
 - macOS 10.14.X through 13.X.X (Ventura req's special modifications)
-- Graphics Acceleration: (occasional artifacts/glitches at high resolutions)
+- Graphics Acceleration
 - Native Brightness Adjustments
 - Native Audio Adjustments
 - Fan
@@ -73,6 +73,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - FileVault
 - Power Management
 - mDP
+- Deep Sleep (macOS style Hibernation)
 
 ## Partially Working/In-Progress (Working ONLY After Warm Boot From Windows/Linux)
 
@@ -84,7 +85,6 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 ## Current Issues Being Worked On
 
-- Deep Sleep (Surface Hardware Limitation)
 - TypeCover Sleep/Wake Trigger
 
 
