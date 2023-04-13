@@ -9,7 +9,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 
 ## *** NOTICE ***
-- ## macOS Ventura now has beta support. Graphics Acceleration is now supported using OpenCore legacy patcher. Additionally, restarting/shut-down in Ventura causes a Kernel Panic due to the Surface Keyboard. I am working on possible solutions to all of these issues but advise that you stay on macOS Monterey or older.
+- ## macOS Ventura is now supported. Graphics Acceleration is supported using OpenCore legacy patcher. 
 - ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 - ### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
