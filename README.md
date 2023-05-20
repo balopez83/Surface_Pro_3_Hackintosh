@@ -1,5 +1,5 @@
 # Surface Pro 3 Hackintosh With Touch Working
-OpenCore based Hackintosh on Surface Pro 3 (May work with some modification on Surface Pro 1/2)
+OpenCore based Hackintosh on Surface Pro 3
 
 Full support for macOS version 10.14.X through 13.X.X. macOS Ventura requires OpenCore Legacy Patcher to regain graphics support.
 
@@ -9,12 +9,12 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 
 ## *** NOTICE ***
-- ## macOS Ventura is now supported. Graphics Acceleration is supported using OpenCore legacy patcher. 
-- ### Do not update kexts labeled as "custom" manually, instead wait for an update. Kexts have been modified to support the Surface and generic kexts WILL break support.
+- ## macOS Ventura is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. 
+- ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen & Keyboard support)
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
-- ### Due to quirks in the Surface Pro 1/2/3 firmware, dual booting with Windows is problematic.
+- ### Due to quirks in the Surface Pro 3 firmware, dual booting with Windows is problematic.
 - ### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned off. Please see instructions in Chapter 9 to register the secure boot key and boot with secure boot turned on
-- ### Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until reboot. 
+- ### Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until the next boot when you will have to do this again. 
 
 
 ## Surface Pro 3 Specifications:
@@ -86,6 +86,7 @@ If you see anything that could be added or changed don't hesitate to make a pull
 ## Current Issues Being Worked On
 
 - TypeCover Sleep/Wake Trigger
+- Surface Dock
 
 
 ## Won't Ever Work
@@ -97,4 +98,4 @@ If you see anything that could be added or changed don't hesitate to make a pull
 
 
 ## Credits
-Special thanks to the massive Hackintosh community for all your work that makes these guides and Surface Pro Hackintosh possible. Additional thanks goes to @acidanthera and [@Xiashangning](https://github.com/Xiashangning/BigSurface) for their tireless work on the software & kexts that make hackintoshing possible. Custom VoodooI2C.kext utilizes code from Xiashangning's BigSurface kext to enable Surface Keyboard support with permission. <br>
+Special thanks to the massive Hackintosh community for all your work that makes these guides and Surface Pro Hackintosh possible. Additional thanks goes to @acidanthera and [@Xiashangning](https://github.com/Xiashangning/BigSurface) for their tireless work on the software & kexts that make hackintoshing possible. Custom VoodooI2C.kext utilizes code with permission from Xiashangning's BigSurface kext to enable Surface Keyboard support. <br>
