@@ -3,7 +3,7 @@ OpenCore based Hackintosh on Surface Pro 3
 
 Full support for macOS version 10.14.X through 13.X.X. macOS Ventura requires OpenCore Legacy Patcher to regain graphics support.
 
-If you see anything that could be added or changed don't hesitate to make a pull request.
+If you see anything that could be added or changed don't hesitate to let me know.
 
 ![Screenshot 2023-03-07 at 2 19 15 PM](https://user-images.githubusercontent.com/53441362/223567083-c2dafb00-a842-4ea7-81fe-e90056486810.png)
 
@@ -54,12 +54,12 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Native Audio Adjustments
 - Fan
 - USB
-- Battery
+- Battery (Battery status & management works in all OS's)
 - A/C Detection
 - TypeCover Trackpad: w/gestures
 - TypeCover Keyboard
 - TypeCover Hotplug
-- Audio
+- Audio / Headphones / Microphone
 - WiFi: USB nano cards supported with the Realtek chipset
 - iServices: Requires custom SMBIOS settings in OpenCore config.plist file. See the OpenCore Dortania Post-Install guide.
 - USB Installer (no wifi support)
@@ -67,12 +67,15 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Secure Boot: ON (see Chapter 9)
 - Dual Boot: (see Chapter 5)
 - Windows Boot From OpenCore Supported
-- TouchScreen
+- TouchScreen (Works in macOS, Recovery, Installer)
 - Surface Pen
-- Recovery (Touch Works In Recovery)
+- Recovery
 - FileVault
 - Power Management
 - mDP
+- Dock MDP/HDMI
+- Dock USB
+- Dock Ethernet
 - Deep Sleep (macOS style Hibernation; See Quirks & Fixes for required power setting changes)
 
 ## Partially Working/In-Progress (Working ONLY After Warm Boot From Windows/Linux)
@@ -80,13 +83,12 @@ If you see anything that could be added or changed don't hesitate to make a pull
 - Power Button (Sleep/Wake)
 - Volume Down
 - Volume Up
-- Windows Button (Temporarily Disabled Pending Assigning A Useful Task For The Button)
+- Windows Button (Disabled Pending Assigning A Useful Task For The Button)
 
 
 ## Current Issues Being Worked On
 
 - TypeCover Sleep/Wake Trigger
-- Surface Dock
 
 
 ## Won't Ever Work
