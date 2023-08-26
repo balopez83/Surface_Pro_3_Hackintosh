@@ -9,7 +9,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 
 ## *** NOTICE ***
-- ## macOS Ventura is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. 
+- ## macOS Ventura is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. It is recommended that you download OCLP first and upgrade to Ventura from Monterey.
 - ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen & Keyboard support)
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 - ### Due to quirks in the Surface Pro 3 firmware, dual booting with Windows is problematic.
