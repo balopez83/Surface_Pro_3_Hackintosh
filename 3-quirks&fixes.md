@@ -33,5 +33,4 @@ sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
 ```
 
-
-
+5. You can enable an onscreen keyboard for touch screen only use of macOS using Accessability options. Enabling Sticky Keys is another useful way to make typing easier on the screen. Another interesting onscreen keybpard application comes from Irradiated Software and its called [Key Up](https://www.irradiatedsoftware.com/labs/). 
