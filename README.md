@@ -96,6 +96,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 - WiFi: (Marvell Avastar - Unsupported)
 - Accelerometer: (Unsupported)
 - Bluetooth: (Marvell Avastar - Unsupported)
+- Surface Pen: (Driver not currently ported to VoodooI2C)
 - DRM: (Unsupported on iGPU)
 
 
