@@ -31,7 +31,13 @@ If you see anything that could be added or changed don't hesitate to let me know
 |Ports| 1x USB 3.0, 1x mDP, 1x 3.5 Audio Jack | same | same |
 |   | 1x Type Cover Port, 1x Surface Dock Port | same | same |
 
+## Supported Software:
 
+- [X] macOS 10.15 Catalina (End of Life)
+- [X] macOS 11 Big Sur (End of Life)
+- [X] macOS 12 Monterey
+- [X] macOS 13 Ventura (Req OCLP)
+- [X] macOS 14 Sonoma (Req OCLP)
 
 ## Instruction Guides
 
