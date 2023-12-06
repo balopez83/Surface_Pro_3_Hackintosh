@@ -54,7 +54,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 ## What works 
 
-- macOS 10.14.X through 14.X.X (Ventura and newer req's special modifications)
+- macOS 10.15.X through 14.X.X (Ventura and newer req's special modifications)
 - Graphics Acceleration
 - Native Brightness Adjustments
 - Native Audio Adjustments
@@ -75,7 +75,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 - Windows Boot From OpenCore Supported
 - TouchScreen (Works in macOS, Recovery, Installer)
 - Surface Pen
-- Recovery
+- Recovery (re-installation requires compatible USB ethernet or phone tethering. I do not have a list of compatible cards and your mileage may vary here)
 - FileVault
 - Power Management
 - mDP
