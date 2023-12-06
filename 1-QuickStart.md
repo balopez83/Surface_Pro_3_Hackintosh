@@ -1,7 +1,7 @@
 ##  Chapter 1) Quick Start Install 
 ## (Windows or Linux as Primary OS - If you would rather have a traditional macOS install then read Chapter 2 before starting)
 
-1. Create a bootable macOS bootable USB using a macOS installer downloaded from the AppStore or using this [tutorial](https://internet-install.gitbook.io/macos-internet-install/).
+1. Create a bootable macOS bootable USB using a macOS installer downloaded from the AppStore [Recommended] or using this [Turorial]([https://internet-install.gitbook.io/macos-internet-install/](https://pureinfotech.com/create-macos-bootable-usb-windows/)) [Not Recommended].
 2. Once install disk is created mount EFI partition and copy one of the release OpenCore EFI folders to your Install Disk's EFI partition you just mounted. 
 3. Boot into Windows or Linux and resize your partition and format as either NTFS or exFAT for you macOS install. In order to successfully install and run macOS with our EFI folders you must have at least an EFI partition of 200mb (300mb or greater recommended)
 4. Boot from your usb, open Disk Utility and format the partition you just created as APFS and then install macOS on the partition you created just like on a real mac.
