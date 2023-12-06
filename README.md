@@ -1,7 +1,7 @@
 # Surface Pro 3 Hackintosh With Touch Working
 OpenCore based Hackintosh on Surface Pro 3
 
-Full support for macOS version 10.14.X through 14.X.X. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
+Full support for macOS version 10.15.X through 14.X.X. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
 
 If you see anything that could be added or changed don't hesitate to let me know.
 
