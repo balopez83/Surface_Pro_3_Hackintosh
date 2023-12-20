@@ -33,4 +33,26 @@ sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
 ```
 
-5. You can enable an onscreen keyboard for touch screen only use of macOS using Accessability options. Enabling Sticky Keys is another useful way to make typing easier on the screen. Another interesting onscreen keybpard application comes from Irradiated Software and its called [Key Up](https://www.irradiatedsoftware.com/labs/). 
+5. You can enable an onscreen keyboard for touch screen only use of macOS using Accessability options. Enabling Sticky Keys is another useful way to make typing easier on the screen. Another interesting onscreen keybpard application comes from Irradiated Software and its called [Key Up](https://www.irradiatedsoftware.com/labs/).
+
+6. If you are having issues with iMessage, FaceTime, or other iServices after an EFI or software update you can try the following to restore iMessage services.
+   1. If you haven't yet, sign out of all iCloud services.
+   2. Open a Finder window and click on your User Name then in a blank area right click and select
+   3. Show View Options and from the resulting window select Show Library Folder.
+   4. Open the newly revealed Library folder and select Caches
+   5. From the Caches folder delete all files and folders beginning with :
+     ```
+     com.apple.iCloudHelper
+     com.apple.imfoundation.IMRemoteURLConnectionAgent
+     com.apple.Message
+     ```
+   6. In Finder navigate to Username/Library/Preferences and delete all files and folders beginning with
+     ```
+     com.apple.iChat.
+     com.apple.icloud.
+     com.apple.ids.service
+     com.apple.imagent.
+     com.apple.imessage.
+     com.apple.imservice.
+     ```
+   7. Empty the Trash and Restart.
