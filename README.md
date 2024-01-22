@@ -10,11 +10,11 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 ## *** NOTICE ***
 - ## macOS Ventura and up is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. It is recommended that you download OCLP first and upgrade to Ventura from Monterey.
-- ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen & Keyboard support)
+- ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen, Surface Pen, & Keyboard support)
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
 - ### Due to quirks in the Surface Pro 3 firmware, dual booting with Windows is problematic.
 - ### Secure boot: In order to boot with secure boot on a key must be registered otherwise secure boot must be turned off. Please see instructions in Chapter 9 to register the secure boot key and boot with secure boot turned on
-- ### Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until the next boot when you will have to do this again. 
+- ### Touch works however you will need to tap the screen several times in a row until it registers (approx 10 times). Once registered it will work as expected until the next boot when you will have to do this again. Surface Pen works without this delay.
 
 
 ## Surface Pro 3 Specifications:
@@ -62,9 +62,9 @@ If you see anything that could be added or changed don't hesitate to let me know
 - USB
 - Battery (Battery status & management works in all OS's)
 - A/C Detection
-- TypeCover Trackpad: w/gestures
-- TypeCover Keyboard
-- TypeCover Hotplug
+- TypeCover Trackpad: w/gestures (models 17xx and higher)
+- TypeCover Keyboard (models 17xx and higher)
+- TypeCover Hotplug (models 17xx and higher)
 - Audio / Headphones / Microphone
 - WiFi: USB nano cards supported with the Realtek chipset
 - iServices: Requires custom SMBIOS settings in OpenCore config.plist file. See the OpenCore Dortania Post-Install guide.
@@ -102,7 +102,6 @@ If you see anything that could be added or changed don't hesitate to let me know
 - WiFi: (Marvell Avastar - Unsupported)
 - Accelerometer: (Unsupported)
 - Bluetooth: (Marvell Avastar - Unsupported)
-- Surface Pen: (Driver not currently ported to VoodooI2C)
 - DRM: (Unsupported on iGPU)
 
 
