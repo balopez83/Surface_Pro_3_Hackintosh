@@ -7,6 +7,6 @@
 4. Boot from your usb, open Disk Utility and format the partition you just created as APFS and then install macOS on the partition you created just like on a real mac.
 5. During first boot, after installing the OS, mount your EFI partition and copy over the OpenCore folder along with your BOOT folder found in the EFI folder on your install usb; you must copy/overwrite the same folders on the same partition located on your SSD.
 6. Temporary: Move the "EFI/Microsoft" folder somewhere safe. I recommend the root of your EFI partition. If you leave the "Microsoft" folder in the EFI folder you will boot to Windows and not OpenCore.
-7. Open your config.plist and generate a new serial number [Tutorial here](https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/)
+7. Open your config.plist and generate a new serial number [Tutorial here](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)
 8. Install any additional software and drivers if needed for your specific needs
 9. Reboot and enjoy!
