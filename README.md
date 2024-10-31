@@ -35,9 +35,11 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 - [X] macOS 10.15 Catalina (End of Life)
 - [X] macOS 11 Big Sur (End of Life)
-- [X] macOS 12 Monterey
+- [X] macOS 12 Monterey (End of Life)
 - [X] macOS 13 Ventura (Req OCLP)
 - [X] macOS 14 Sonoma (Req OCLP)
+- [ ] macOS 15 Sequoia (Req OCLP 2.02+)
+- [ ] macOS 16 (Expected to drop Intel support)
 
 ## Instruction Guides
 
