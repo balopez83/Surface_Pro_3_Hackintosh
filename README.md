@@ -1,7 +1,7 @@
 # Surface Pro 3 Hackintosh With Touch/Pen Working
 OpenCore based Hackintosh on Surface Pro 3
 
-Full support for macOS version 10.15.X through 14.X.X. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
+Full support for macOS version 10.15.X through 15.X. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
 
 If you see anything that could be added or changed don't hesitate to let me know.
 
@@ -38,7 +38,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 - [X] macOS 12 Monterey (End of Life)
 - [X] macOS 13 Ventura (Req OCLP)
 - [X] macOS 14 Sonoma (Req OCLP)
-- [ ] macOS 15 Sequoia (Req OCLP 2.02+)
+- [X] macOS 15 Sequoia (Req OCLP 2.02+)
 - [ ] macOS 16 (Expected to drop Intel support)
 
 ## Instruction Guides
@@ -56,14 +56,14 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 ## What works 
 
-- macOS 10.15.X through 14.X.X (Ventura and newer req's special modifications)
+- macOS 10.15.X through 15.X (Ventura and newer req's special modifications)
 - Graphics Acceleration
 - Native Brightness Adjustments
 - Native Audio Adjustments
 - Fan
 - USB
 - Battery (Battery status & management works in all OS's)
-- A/C Detection
+- AC Power Detection
 - TypeCover Trackpad: w/gestures (models 17xx and higher)
 - TypeCover Keyboard (models 17xx and higher)
 - TypeCover Hotplug (models 17xx and higher)
