@@ -9,7 +9,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 
 ## *** NOTICE ***
-- ## It appears that the Hackintosh journey is coming to a close. Given the EOL of hackintoshing is quickly nearing, I am moving this repo to an LTS support model only updating the repo if fixes are available until Apple stops releasing Intel compatible OS's. I will periodically update kexts and OpenCore as appropriate however there is no need to update with every OC or kext release if no new features or fixes impact the Surface Pro. You should expect that any remaining current issues will not be solved. 
+- ## It appears that the Hackintosh journey is coming to a close. Given the EOL of hackintoshing is quickly nearing, I am moving this repo to an LTS support model and will only update the repo if fixes are available until Apple stops releasing Intel compatible OS's. I will periodically update kexts and OpenCore as appropriate however there is no need to update with every OC or kext release if no new features or fixes impact the Surface Pro. You should expect that any remaining current issues will not be solved.
 - ## macOS Ventura and up is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. It is recommended that you download OCLP first and upgrade to Ventura from Monterey.
 - ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen, Surface Pen, & Keyboard support)
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
