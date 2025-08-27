@@ -40,7 +40,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 - [X] macOS 13 Ventura (Req OCLP)
 - [X] macOS 14 Sonoma (Req OCLP)
 - [X] macOS 15 Sequoia (Req OCLP 2.02+)
-- [X] macOS 26 (Last macOS version to support Intel)
+- [X] macOS 26 (Last macOS version to support Intel; End of Support)
 
 ## Instruction Guides
 
