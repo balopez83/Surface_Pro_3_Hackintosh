@@ -1,7 +1,7 @@
 # Surface Pro 3 Hackintosh With Touch/Pen Working
 OpenCore based Hackintosh on Surface Pro 3
 
-Full support for macOS version 10.15.X through 15.X. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
+Full support for macOS version 10.15.X through 15.X and Beta support for macos 26. macOS Ventura and up supported and requires OpenCore Legacy Patcher to regain graphics support.
 
 If you see anything that could be added or changed don't hesitate to let me know.
 
@@ -9,7 +9,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 
 ## *** NOTICE ***
-- ## It appears that the Hackintosh journey is coming to a close. Given the EOL of hackintoshing is quickly nearing, I am moving this repo to an LTS support model and will only update the repo if fixes are available until Apple stops releasing Intel compatible OS's. I will periodically update kexts and OpenCore as appropriate however there is no need to update with every OC or kext release if no new features or fixes impact the Surface Pro. You should expect that any remaining current issues will not be solved.
+- ## It appears that the Hackintosh journey is coming to a close as macOS 26 will be the last Intel supporting release. Given the EOL of hackintoshing is quickly nearing, I am moving this repo to an LTS support model and will only update the repo if fixes are available until Apple stops releasing Intel compatible OS's. I will periodically update kexts and OpenCore as appropriate however there is no need to update with every OC or kext release if no new features or fixes impact the Surface Pro. You should expect that any remaining current issues will not be solved.
 - ## macOS Ventura and up is now mostly supported. Graphics Acceleration is only supported using OpenCore legacy patcher. It is recommended that you download OCLP first and upgrade to Ventura from Monterey.
 - ### Do not manually update kexts labeled as "custom"; instead wait for an update. Custom kexts have been modified to support the Surface Pro 3 and generic kexts WILL break support (e.g. TouchScreen, Surface Pen, & Keyboard support)
 - ### Upon first installation you must go to Settings and disable "Force Touch" in the trackpad settings for the Surface Trackpad to function properly
@@ -40,7 +40,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 - [X] macOS 13 Ventura (Req OCLP)
 - [X] macOS 14 Sonoma (Req OCLP)
 - [X] macOS 15 Sequoia (Req OCLP 2.02+)
-- [ ] macOS 16 (Expected to drop Intel support)
+- [X] macOS 26 (Last macOS version to support Intel)
 
 ## Instruction Guides
 
@@ -57,7 +57,7 @@ If you see anything that could be added or changed don't hesitate to let me know
 
 ## What works 
 
-- macOS 10.15.X through 15.X (Ventura and newer req's special modifications)
+- macOS 10.15.X through 15.X Beta support for 26.x (Ventura and newer req's special modifications)
 - Graphics Acceleration
 - Native Brightness Adjustments
 - Native Audio Adjustments
